@@ -1,0 +1,349 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	background: #ffffff url(images/back_all.gif) repeat-x top;
+}
+
+body, th, td, input, textarea {
+	font-family: Verdana, Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+
+#left1
+{
+width: 1031px;
+margin: 0 auto;
+background: url(images/1.jpg) no-repeat left top;
+}
+
+#right1
+{
+width: 1031px;
+background: url(images/2.jpg) no-repeat right top;
+}
+
+#contmain
+{
+width: 100%;
+background: url(images/footer_back.gif) bottom repeat-x
+}
+
+h1, h2, h3 {
+	color: #44763E;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #44763E;
+}
+
+
+h3 {
+	font-size: 1em;
+}
+
+p, ul, ol {
+	margin-top: 7px;
+	font-size: 1.1em;
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+
+a {
+	text-decoration: underline;
+	color: #44763E;
+}
+
+a:hover {
+	border: none;
+	text-decoration: none;
+}
+
+h1 a, h2 a, h3 a {
+	border: none;
+	text-decoration: none;
+	color: #44763E;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover {
+	background: none;
+	color: #44763E;
+}
+
+
+/* Wrapper */
+
+#wrapper {
+}
+
+/* Header */
+
+#header {
+	width: 689px;
+	margin: 0 auto;
+	height: 369px;
+}
+
+#menu {
+	float: left;
+	height: 51px;
+	width: 673px;
+	padding-top: 10px;
+	padding-left: 14px;
+	background: url(images/buttons.gif) repeat-x;
+	border-left: 1px solid #44763E;
+	border-right: 1px solid #44763E;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 51px;
+	width: 125px;
+	margin-right: 1px;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #ffffff;
+	padding-top: 10px;
+    text-align: center;
+
+}
+
+#menu a:hover {
+	color: #2C2E22;
+	margin-top: 5px;
+}
+
+
+
+/* Logo */
+
+#logo {
+	width: 689px;
+	height: 369px;
+	margin: 0 auto;
+	background: url(images/header.jpg) no-repeat left top;
+}
+
+
+#logo h1 {
+	font-family: Georgia, Palatino Linotype, Palatino, serif;
+	letter-spacing:	0.35em;
+	padding-top: 30px;
+	padding-left: 20px;
+	color: #ffffff;
+	font-size: 24px;
+	font-variant: small-caps;
+}
+
+#logo h2 {
+	font-size: 10px;
+	padding-top: 5px;
+	padding-left: 200px;
+	color: #ffffff;
+}
+
+#logo p {
+	clear: left;
+	margin: 0;
+	padding: 0 0 0 20px;
+	line-height: normal;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+#logo a {
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+	width: 689px;
+	margin: 0 auto;
+	background: #ffffff url(images/table_back.gif) repeat-y;
+	border-top: none;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 400px;
+	padding-left: 10px;
+	padding-top: 20px;
+	margin-left: 1px;
+	background: url(images/title_back.gif) repeat-x top;
+}
+
+.post {
+}
+
+.post .title {
+	margin: 0;
+	font-weight: normal;
+}
+
+.post h1.title {
+	height: 30px;
+	font-size: 2.4em;
+}
+
+.post .entry {
+	padding: 0 10px 30px 15px;
+}
+
+.post .meta {
+	margin: 0;
+	padding: 5px 0px 0px 15px;
+	background: url(images/img04.gif) repeat-x left bottom;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #44763E;
+}
+
+.post .meta a {
+	color: #44763E;
+}
+
+.post .links {
+	margin: 0;
+}
+
+.post .tags {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: .8em;
+	font-weight: bold;
+	background: url(images/img04.gif) repeat-x;
+}
+
+.post .links a, .post .tags a {
+	border: none;
+}
+
+
+/* Sidebars */
+
+.sidebar {
+	float: left;
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar li {
+	margin-bottom: 2em;
+}
+
+.sidebar li ul {
+}
+
+.sidebar li li {
+	margin: 0;
+}
+
+.sidebar li h2 {
+	margin: 0 0 1em 0;
+}
+
+#sidebar1 {
+	width: 224px;
+	padding: 0px 0px 0px 20px;
+}
+
+#sidebar2 {
+    background: url(images/title_back.gif) repeat-x top;
+	width: 236px;
+	padding: 20px 20px 0px 20px;
+}
+
+#sidebar2 li h2 {
+	margin: 0 0 1em 0;
+	background: url(images/title.gif) no-repeat left top;
+	height: 35px;
+	color: #FFFFFF;
+	padding-left: 20px;
+	padding-top: 9px;
+}
+
+#sidebar2 li ul {
+	line-height: normal;
+}
+
+#sidebar2 li li {
+	padding: 5px;
+	background: url(images/img04.gif) repeat-x left bottom;
+	font-size: .8em;
+}
+
+#sidebar2 li a {
+	border: none;
+	padding-left: 10px;
+}
+
+#sidebar2 li a:hover {
+	border: none;
+	padding-left: 10px;
+}
+
+#bottom
+{
+height: 30px;
+background: url(images/footer.gif) bottom no-repeat;
+}
+
+/* Footer */
+#footer
+{
+padding: 20px;
+height: 50px
+}
+
+#footer p {
+	text-align: center;
+	font-size: 9px;
+	color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+#footer a
+{
+color: #FFFFFF
+}
