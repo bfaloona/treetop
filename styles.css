@@ -22,14 +22,14 @@ body, th, td, input, textarea {
 
 #left1
 {
-width: 1131px;
+width: 1031px;
 margin: 0 auto;
 background: url(images/1.jpg) no-repeat left top;
 }
 
 #right1
 {
-width: 1131px;
+width: 1031px;
 background: url(images/2.jpg) no-repeat right top;
 }
 
@@ -98,7 +98,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 /* Header */
 
 #header {
-	width: 789px;
+	width: 689px;
 	margin: 0 auto;
 	height: 369px;
 }
@@ -106,7 +106,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 #menu {
 	float: left;
 	height: 51px;
-	width: 773px;
+	width: 673px;
 	padding-top: 10px;
 	padding-left: 14px;
 	background: url(images/buttons.gif) repeat-x;
@@ -150,7 +150,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 /* Logo */
 
 #logo {
-	width: 789px;
+	width: 689px;
 	height: 369px;
 	margin: 0 auto;
 	background: url(images/header.jpg) no-repeat left top;
@@ -191,7 +191,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 /* Page */
 
 #page {
-	width: 789px;
+	width: 689px;
 	margin: 0 auto;
 	background: #ffffff url(images/table_back.gif) repeat-y;
 	border-top: none;
@@ -201,7 +201,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 
 #content {
 	float: left;
-	width: 500px;
+	width: 400px;
 	padding-left: 10px;
 	padding-top: 20px;
 	margin-left: 1px;
@@ -284,13 +284,13 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 }
 
 #sidebar1 {
-	width: 274px;
+	width: 224px;
 	padding: 0px 0px 0px 20px;
 }
 
 #sidebar2 {
     background: url(images/title_back.gif) repeat-x top;
-	width: 286px;
+	width: 236px;
 	padding: 20px 20px 0px 20px;
 }
 
