@@ -1,0 +1,13 @@
+!!! 5
+%html
+  %head
+    %meta{ :charset => "utf-8" }
+    %title= "#{page.title}"
+    %script{ :type => "text/javascript", :src => "/javascripts/prototype.js"}
+    %script{ :type => "text/javascript", :src => "/javascripts/scriptaculous.js?load=effects,builder"}
+    %script{ :type => "text/javascript", :src => "/javascripts/lightbox.js"}
+    %link{ :rel => "stylesheet", :type => "text/css", :media => "screen", :href => "/stylesheets/styles.css" }
+    %link{ :rel => "stylesheet", :type => "text/css", :media => "screen", :href => "/stylesheets/lightbox.css" }
+  %body
+
+    = yield
