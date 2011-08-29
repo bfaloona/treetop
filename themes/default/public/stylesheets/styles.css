@@ -11,7 +11,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 
 body {
 	margin: 0;
-	background: #ffffff url(images/back_all.gif) repeat-x top;
+	background: #ffffff url(/images/back_all.gif) repeat-x top;
 }
 
 body, th, td, input, textarea {
@@ -24,19 +24,19 @@ body, th, td, input, textarea {
 {
 width: 1031px;
 margin: 0 auto;
-background: url(images/1.jpg) no-repeat left top;
+background: url(/images/1.jpg) no-repeat left top;
 }
 
 #right1
 {
 width: 1031px;
-background: url(images/2.jpg) no-repeat right top;
+background: url(/images/2.jpg) no-repeat right top;
 }
 
 #contmain
 {
 width: 100%;
-background: url(images/footer_back.gif) bottom repeat-x
+background: url(/images/footer_back.gif) bottom repeat-x
 }
 
 h1, h2, h3 {
@@ -109,7 +109,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	width: 673px;
 	padding-top: 10px;
 	padding-left: 14px;
-	background: url(images/buttons.gif) repeat-x;
+	background: url(/images/buttons.gif) repeat-x;
 	border-left: 1px solid #44763E;
 	border-right: 1px solid #44763E;
 }
@@ -153,7 +153,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	width: 689px;
 	height: 369px;
 	margin: 0 auto;
-	background: url(images/header.jpg) no-repeat left top;
+	background: url(/images/header.jpg) no-repeat left top;
 }
 
 
@@ -193,7 +193,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 #page {
 	width: 689px;
 	margin: 0 auto;
-	background: #ffffff url(images/table_back.gif) repeat-y;
+	background: #ffffff url(/images/table_back.gif) repeat-y;
 	border-top: none;
 }
 
@@ -205,7 +205,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	padding-left: 10px;
 	padding-top: 20px;
 	margin-left: 1px;
-	background: url(images/title_back.gif) repeat-x top;
+	background: url(/images/title_back.gif) repeat-x top;
 }
 
 .post {
@@ -228,7 +228,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 .post .meta {
 	margin: 0;
 	padding: 5px 0px 0px 15px;
-	background: url(images/img04.gif) repeat-x left bottom;
+	background: url(/images/img04.gif) repeat-x left bottom;
 	text-transform: uppercase;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10px;
@@ -248,7 +248,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	text-transform: uppercase;
 	font-size: .8em;
 	font-weight: bold;
-	background: url(images/img04.gif) repeat-x;
+	background: url(/images/img04.gif) repeat-x;
 }
 
 .post .links a, .post .tags a {
@@ -289,14 +289,14 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 }
 
 #sidebar2 {
-    background: url(images/title_back.gif) repeat-x top;
+    background: url(/images/title_back.gif) repeat-x top;
 	width: 236px;
 	padding: 20px 20px 0px 20px;
 }
 
 #sidebar2 li h2 {
 	margin: 0 0 1em 0;
-	background: url(images/title.gif) no-repeat left top;
+	background: url(/images/title.gif) no-repeat left top;
 	height: 35px;
 	color: #FFFFFF;
 	padding-left: 20px;
@@ -309,7 +309,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 
 #sidebar2 li li {
 	padding: 5px;
-	background: url(images/img04.gif) repeat-x left bottom;
+	background: url(/images/img04.gif) repeat-x left bottom;
 	font-size: .8em;
 }
 
@@ -326,7 +326,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 #bottom
 {
 height: 30px;
-background: url(images/footer.gif) bottom no-repeat;
+background: url(/images/footer.gif) bottom no-repeat;
 }
 
 /* Footer */
