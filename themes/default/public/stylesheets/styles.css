@@ -103,6 +103,12 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	height: 369px;
 }
 
+#subpageheader {
+	width: 689px;
+	margin: 0 auto;
+	height: 129px;
+}
+
 #menu {
 	float: left;
 	height: 51px;
@@ -156,6 +162,20 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	background: url(/images/header.jpg) no-repeat left top;
 }
 
+#subpagelogo {
+	width: 689px;
+	height: 129px;
+	margin: 0 auto;
+	background: url(/images/chalet_logo.jpg) no-repeat left top;
+}
+
+#topmenu {
+	width: 689px;
+	height: 50px;
+	margin: 0 auto;
+    background-color: #44763E;
+}
+
 
 #logo h1 {
 	font-family: Georgia, Palatino Linotype, Palatino, serif;
@@ -174,6 +194,36 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	color: #ffffff;
 }
 
+
+#topmenu h2 {
+    font-family: Georgia, Palatino Linotype, Palatino, serif;
+    clear: left;
+    letter-spacing:	0.35em;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    font-variant: small-caps;
+}
+
+#navigator h2 {
+    font-family: Georgia, Palatino Linotype, Palatino, serif;
+    float:right;
+    padding-top: 20px;
+    padding-right: 20px;
+    /*letter-spacing:	0.35em;*/
+    /*padding-top: 40px;*/
+    /*padding-left: 50px;*/
+    text-align: right;
+    color: #ffffff;
+    font-size: 10px;
+    font-variant: small-caps;
+}
+
+#navigator h2 a {
+    color: #ffffff;
+}
+
 #logo p {
 	clear: left;
 	margin: 0;
@@ -182,6 +232,20 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	font-size: 1.2em;
 	font-weight: bold;
 	color: #ffffff;
+}
+
+#subpagelogo p {
+    clear: left;
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-family: Georgia, Palatino Linotype, Palatino, serif;
+    letter-spacing:	0.35em;
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    font-variant: small-caps;
 }
 
 #logo a {
@@ -202,6 +266,15 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 #content {
 	float: left;
 	width: 400px;
+	padding-left: 10px;
+	padding-top: 20px;
+	margin-left: 1px;
+	background: url(/images/title_back.gif) repeat-x top;
+}
+
+#subpagecontent {
+	float: left;
+	/*width: 400px;*/
 	padding-left: 10px;
 	padding-top: 20px;
 	margin-left: 1px;
@@ -333,12 +406,12 @@ background: url(/images/footer.gif) bottom no-repeat;
 #footer
 {
 padding: 20px;
-height: 50px
+height: 80px
 }
 
 #footer p {
 	text-align: center;
-	font-size: 9px;
+	font-size: 10px;
 	color: #ffffff;
 	margin: 0px;
 	padding: 0px;
