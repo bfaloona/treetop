@@ -171,7 +171,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 
 #topmenu {
 	width: 689px;
-	height: 50px;
+	height: 45px;
 	margin: 0 auto;
     background-color: #44763E;
 }
@@ -200,7 +200,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
     clear: left;
     letter-spacing:	0.35em;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 15px;
     color: #ffffff;
     font-size: 16px;
     font-variant: small-caps;

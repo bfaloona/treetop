@@ -10,8 +10,19 @@ title: The Chalet
         #navigator
           %h2
             %a{:href => "/", :title => "Talkeetna Treetop Chalet"} Talkeetna Treetop Chalet
-            %a{ }
-        %h2= page.title
+        %ul#nav.dropdown.dropdown-horizontal
+          %li.dir
+            =page.title
+            %ul
+              %li
+                %a{:href => "/"} Home
+              %li
+                %a{:href => "/chalet"} The Chalet
+              %li
+                %a{:href => "/cabin"} Cabin
+              %li
+                %a{:href => "/garden"} Garden Apartment
+
       #page
         #content
           #div.post
@@ -51,23 +62,6 @@ title: The Chalet
         #sidebar2.sidebar
           %ul
             %li
-              %h2 Amenities
-              %ul
-                %li High Speed Wi-Fi and Satellite TV
-                %li Freezer to store the day's catch
-            %li
-              %h2 Rates
-              %ul
-                %li $150 per room (2 guest max)
-                %li $275 for entire chalet (5 guest max)
-                %li Please inquire for winter rates and extended stays.
-            %li
-              %h2 Location
-              %ul
-                %li 22200 Jefferson Street, Talkeetna  AK
-                %li
-                  <iframe width="200" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?gl=us&amp;ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;msa=0&amp;msid=212549983279691578598.0004ac43dd4c02ed7b4a8&amp;vpsrc=6&amp;ll=62.317408,-150.072556&amp;spn=0.063799,0.136642&amp;z=11&amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.com/maps/ms?gl=us&amp;ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;msa=0&amp;msid=212549983279691578598.0004ac43dd4c02ed7b4a8&amp;vpsrc=6&amp;ll=62.317408,-150.072556&amp;spn=0.063799,0.136642&amp;z=11&amp;source=embed" style="color:#0000FF;text-align:left">larger map</a></small>
-            %li
               %h2 Photos
               %ul
                 %li
@@ -82,6 +76,25 @@ title: The Chalet
                     %br>/
                     \  
                     %img{:alt => "Picture window in the great room.", :height => "40", :src => "images/thumb_exterior1.jpg", :width => "200"}/
+            %li
+              %h2 Amenities
+              %ul
+                %li Queen Beds
+                %li Private Bathrooms
+                %li High Speed Wi-Fi and Satellite TV
+                %li Freezer to store the day's catch
+            %li
+              %h2 Rates
+              %ul
+                %li $150 per room (2 guest max)
+                %li $275 for entire chalet (5 guest max)
+                %li Please inquire for winter rates and extended stays.
+            %li
+              %h2 Location
+              %ul
+                %li 22200 Jefferson Street, Talkeetna  AK
+                %li
+                  <iframe width="200" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?gl=us&amp;ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;msa=0&amp;msid=212549983279691578598.0004ac43dd4c02ed7b4a8&amp;vpsrc=6&amp;ll=62.317408,-150.072556&amp;spn=0.063799,0.136642&amp;z=11&amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.com/maps/ms?gl=us&amp;ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;msa=0&amp;msid=212549983279691578598.0004ac43dd4c02ed7b4a8&amp;vpsrc=6&amp;ll=62.317408,-150.072556&amp;spn=0.063799,0.136642&amp;z=11&amp;source=embed" style="color:#0000FF;text-align:left">larger map</a></small>
         / end sidebar two
         #bottom{:style => "clear: both;"}
       #footer
