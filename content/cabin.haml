@@ -1,80 +1,45 @@
 ---
 title: Treetop Guest House
+view: subpage.haml
 ---
-#contmain
-  #left1
-    #right1
-      #subpageheader
-        %div{:id => 'subpagelogo', :style => "background: url(/images/cabin_logo.jpg)"}
-      #topmenu
-        #navigator
-          %h2
-            %a{:href => "/", :title => "Talkeetna Treetop Chalet"} Talkeetna Treetop Chalet
-        %ul#nav.dropdown.dropdown-horizontal
-          %li.dir
-            =page.title
-            %ul
-              %li
-                %a{:href => "/"} Home
-              %li
-                %a{:href => "/chalet"} Treetop Chalet
-              %li
-                %a{:href => "/cabin"} Treetop Guest House
-              %li
-                %a{:href => "/garden"} Garden Apartment
+#content
+  #div.post
+    #div.entry
+      %h2 Roomy and Convenient
+      %ul
+        %li 2 bedrooms, 1 and 1/2 bath
+        %li Close to Talkeetna lakes and trail system
+        %li Bike path accessible
 
-      #page
-        #content
-          #div.post
-            #div.entry
-              %h2 Roomy and Convenient
-              %ul
-                %li 2 bedrooms, 1 and 1/2 bath
-                %li Close to Talkeetna lakes and trail system
-                %li Bike path accessible
-
-            #div.entry
-              %h2 Brand new construction
-              %ul
-                %li Opening Fall 2011
+    #div.entry
+      %h2 Brand new construction
+      %ul
+        %li Opening Fall 2011
 
 
-        / start sidebar two
-        #sidebar2.sidebar
-          %ul
-            %li
-              %h2 Rates
-              %ul
-                %li Please call to inquire about rates
-            %li
-              %h2 Photos
-              %ul
-                %li Check back soon!
-            %li
-              %h2 Location
-              %ul
-                %li
-                  %a{:href => "http://www.google.com/maps?q=25453+South+Talkeetna+Spur,+Talkeetna+AK&hl=en&ll=62.295628,-150.066633&spn=0.021628,0.077162&sll=37.0625,-95.677068&sspn=37.683309,79.013672&vpsrc=6&z=14"}
-                    %img{:src => "http://maps.googleapis.com/maps/api/staticmap?center=62.30520,-150.08698&markers=color:red%7C25453+South+Talkeetna+Spur,+Talkeetna,+AK&zoom=11&size=200x200&maptype=roadmap&sensor=false", :width => '200', :height => '200', :border => '0'}
-                    %small View Larger Map
-                %li
-                  25453 South Talkeetna Spur, Talkeetna AK
-                %li
+/ start sidebar two
+#sidebar2.sidebar
+  %ul
+    %li
+      %h2 Rates
+      %ul
+        %li Please call to inquire about rates
+    %li
+      %h2 Photos
+      %ul
+        %li Check back soon!
+    %li
+      %h2 Location
+      %ul
+        %li
+          %a{:href => "http://www.google.com/maps?q=25453+South+Talkeetna+Spur,+Talkeetna+AK&hl=en&ll=62.295628,-150.066633&spn=0.021628,0.077162&sll=37.0625,-95.677068&sspn=37.683309,79.013672&vpsrc=6&z=14"}
+            %img{:src => "http://maps.googleapis.com/maps/api/staticmap?center=62.311187,-150.066032&markers=color:red%7C25453+South+Talkeetna+Spur,+Talkeetna,+AK&zoom=11&size=200x200&maptype=roadmap&sensor=false", :width => '200', :height => '200', :border => '0'}
+            / 62.30520,-150.08698
+            %small View Larger Map
+        %li
+          25453 South Talkeetna Spur, Talkeetna AK
+        %li
+    / end sidebar two
+#bottom{:style => "clear: both;"}
 
-
-        / end sidebar two
-        #bottom{:style => "clear: both;"}
-      #footer
-        %p
-          P.O. Box 570 | Talkeetna, AK 99676
-        %p
-          Copyright &copy; 2011. Design by <a href="http://www.metamorphozis.com/">metamorphozis.com</a>
-        %p
-          Homepage Denali photo taken from deck &copy Antonio B-W
-
-%div{:style => "visibility:hidden;height: 0;"}
-  %a{:href => "images/garden-kitchen.jpg", :rel => "lightbox[garden]", :title => "Garden Apartment: Complete kitchen and convenient breakfast bar."}
-  %a{:href => "images/garden-bed.jpg", :rel => "lightbox[garden]", :title => "Garden Apartment: Great view and ultimate comfort in the Queen size memory foam bed."}
-  %a{:href => "images/denali-view2.jpg", :rel => "lightbox[views]", :title => "Beautiful sunsets..."}
-
-    / end page
+/ end page
