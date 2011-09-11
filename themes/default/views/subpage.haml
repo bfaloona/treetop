@@ -3,24 +3,23 @@
   %div{:id => 'subpagelogo', :style => "background: url(/images/#{image_name})"}
 #topmenu
   #navigator
-    %h2
-      %a{:href => "/", :title => "Talkeetna Treetop Chalet"} Talkeetna Treetop Chalet
-  %ul#nav.dropdown.dropdown-horizontal
-    %li.dir
-      =page.title
-      %ul
-        %li
-          %a{:href => "/chalet"} Treetop Chalet
-        %li
-          %a{:href => "/cabin"} Treetop Guest House
-        %li
-          %a{:href => "/garden"} Garden Apartment
-        %li
-          %a{:href => "/about"} About Us
-        %li
-          %a{:href => "/directions"} Getting Here
-        %li
-          %a{:href => "/"} Home
+    %ul#nav.dropdown.dropdown-horizontal
+      %li.dir
+        %a{:href => "/", :title => "Talkeetna Treetop Chalet"} Talkeetna Treetop Chalet
+        %ul
+          %a{:href => "/chalet"}
+            %li Treetop Chalet
+          %a{:href => "/cabin"}
+            %li Treetop Guest House
+          %a{:href => "/garden"}
+            %li Garden Apartment
+          %a{:href => "/activities"}
+            %li Activities
+          %a{:href => "/about"}
+            %li About Us
+          %a{:href => "/directions"}
+            %li Getting Here
+  %h2=page.title
 
 #page
 

@@ -45,7 +45,7 @@ ul.dropdown {
      padding-left: 20px;
      padding-top: 14px;
      color: #ffffff;
-     font-size: 16px;
+     font-size: 14px;
      font-variant: small-caps;
 	}
 
@@ -66,8 +66,8 @@ ul.dropdown {
 	/* -- level mark -- */
 
 	ul.dropdown ul {
-	 width: 290px;
-	 margin-top: 1px;
+	 width: 313px;
+	 margin-top: 0px;
 	}
 
 		ul.dropdown ul li {
@@ -87,10 +87,10 @@ ul.dropdown *.dir {
  padding-right: 20px;
  background-color: #44763E;
  font-weight: bold;
- font-size: 18px;
- /*background-image: url(/images/default/nav-arrow-down.png);*/
- /*background-position: 100% 50%;*/
- /*background-repeat: no-repeat;*/
+ font-size: 14px;
+ background-image: url(/images/default/nav-arrow-down.png);
+ background-position: 100% 50%;
+ background-repeat: no-repeat;
 }
 
 
