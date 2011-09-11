@@ -280,6 +280,10 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	background: url(/images/title_back.gif) repeat-x top;
 }
 
+#subpagecontent p {
+	padding-right: 75px;
+}
+
 .post {
 }
 
@@ -410,7 +414,7 @@ height: 80px
 
 #footer p {
 	text-align: center;
-	font-size: 10px;
+	font-size: 11px;
 	color: #ffffff;
 	margin: 0px;
 	padding: 0px;
