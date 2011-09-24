@@ -27,7 +27,12 @@ view: subpage.haml
     %li
       %h2 Photos
       %ul
-        %li Check back soon!
+        %li
+          %a{:href => "images/guest_house1.jpg", :rel => "lightbox[guest-house]", :style => "text-decoration:none;", :title => "Treetop Guest House."}
+            Guest House
+            %br>/
+            \  
+            %img{:alt => "Treetop Guest House", :height => "40", :src => "images/thumb_guest-house.jpg", :width => "200"}/
     %li
       %h2 Location
       %ul
@@ -39,7 +44,9 @@ view: subpage.haml
         %li
           25453 South Talkeetna Spur, Talkeetna AK
         %li
-    / end sidebar two
+/ end sidebar two
 #bottom{:style => "clear: both;"}
+  %div{:style => "visibility:hidden;height: 0;"}
+    %a{:href => "images/guest_house2.jpg", :rel => "lightbox[guest-house]", :style => "text-decoration:none;", :title => "Treetop Guest House rear deck."}
 
 / end page
