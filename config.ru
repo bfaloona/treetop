@@ -7,9 +7,9 @@ class Mango::Application
     require 'newrelic_rpm'
   end
 
-  before do
-    cache_control :public, :max_age => 86400
-  end
+  #before do
+  #  cache_control :public, :max_age => 86400
+  #end
 
 end
 
