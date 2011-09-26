@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+	<url>
+      <loc>http://talkeetnatreetop.com/</loc>
+      <priority>1.0</priority>
+    </url>
+	<url>
+      <loc>http://talkeetnatreetop.com/cabin</loc>
+      <priority>0.8</priority>
+    </url>
+	<url>
+      <loc>http://talkeetnatreetop.com/chalet</loc>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>http://talkeetnatreetop.com/garden</loc>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://talkeetnatreetop.com/about</loc>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>http://talkeetnatreetop.com/activities</loc>
+      <priority>0.5</priority>
+    </url>
+	<url>
+      <loc>http://talkeetnatreetop.com/credits</loc>
+      <priority>0.1</priority>
+    </url>
+	<url>
+      <loc>http://talkeetnatreetop.com/directions</loc>
+      <priority>0.1</priority>
+    </url>
+</urlset>
