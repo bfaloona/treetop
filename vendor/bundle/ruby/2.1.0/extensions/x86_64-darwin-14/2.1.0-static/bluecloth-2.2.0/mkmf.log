@@ -1,0 +1,168 @@
+have_func: checking for srand()... -------------------- yes
+
+"gcc -o conftest -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/x86_64-darwin14.0 -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/ruby/backward -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -DVERSION=\"2.0.9\" -O3 -I/Users/mpapis/.sm/pkg/active/include -fPIC -mmacosx-version-min=10.7 -pipe -I. conftest.c  -L. -L/Users/brandon/.rvm/rubies/ruby-2.1.5/lib -L. -L/Users/mpapis/.sm/pkg/active/lib -fPIC -Bstatic -fstack-protector   -arch x86_64   -lruby-static -framework CoreFoundation  -lpthread -ldl -lobjc "
+ld: warning: directory not found for option '-L/Users/mpapis/.sm/pkg/active/lib'
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+"gcc -o conftest -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/x86_64-darwin14.0 -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/ruby/backward -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -DVERSION=\"2.0.9\" -O3 -I/Users/mpapis/.sm/pkg/active/include -fPIC -mmacosx-version-min=10.7 -pipe -I. conftest.c  -L. -L/Users/brandon/.rvm/rubies/ruby-2.1.5/lib -L. -L/Users/mpapis/.sm/pkg/active/lib -fPIC -Bstatic -fstack-protector   -arch x86_64   -lruby-static -framework CoreFoundation  -lpthread -ldl -lobjc "
+ld: warning: directory not found for option '-L/Users/mpapis/.sm/pkg/active/lib'
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { void ((*volatile p)()); p = (void ((*)()))srand; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for random()... -------------------- yes
+
+"gcc -o conftest -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/x86_64-darwin14.0 -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/ruby/backward -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -DVERSION=\"2.0.9\" -O3 -I/Users/mpapis/.sm/pkg/active/include -fPIC -mmacosx-version-min=10.7 -pipe -I. conftest.c  -L. -L/Users/brandon/.rvm/rubies/ruby-2.1.5/lib -L. -L/Users/mpapis/.sm/pkg/active/lib -fPIC -Bstatic -fstack-protector   -arch x86_64   -lruby-static -framework CoreFoundation  -lpthread -ldl -lobjc "
+ld: warning: directory not found for option '-L/Users/mpapis/.sm/pkg/active/lib'
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { void ((*volatile p)()); p = (void ((*)()))random; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for bzero() in string.h,strings.h... -------------------- yes
+
+"gcc -o conftest -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/x86_64-darwin14.0 -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/ruby/backward -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -DVERSION=\"2.0.9\" -O3 -I/Users/mpapis/.sm/pkg/active/include -fPIC -mmacosx-version-min=10.7 -pipe -I. conftest.c  -L. -L/Users/brandon/.rvm/rubies/ruby-2.1.5/lib -L. -L/Users/mpapis/.sm/pkg/active/lib -fPIC -Bstatic -fstack-protector   -arch x86_64   -lruby-static -framework CoreFoundation  -lpthread -ldl -lobjc "
+ld: warning: directory not found for option '-L/Users/mpapis/.sm/pkg/active/lib'
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: #include <string.h>
+ 4: #include <strings.h>
+ 5: 
+ 6: /*top*/
+ 7: extern int t(void);
+ 8: int main(int argc, char **argv)
+ 9: {
+10:   if (argc > 1000000) {
+11:     printf("%p", &t);
+12:   }
+13: 
+14:   return 0;
+15: }
+16: int t(void) { void ((*volatile p)()); p = (void ((*)()))bzero; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for strcasecmp()... -------------------- yes
+
+"gcc -o conftest -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/x86_64-darwin14.0 -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/ruby/backward -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -DVERSION=\"2.0.9\" -O3 -I/Users/mpapis/.sm/pkg/active/include -fPIC -mmacosx-version-min=10.7 -pipe -I. conftest.c  -L. -L/Users/brandon/.rvm/rubies/ruby-2.1.5/lib -L. -L/Users/mpapis/.sm/pkg/active/lib -fPIC -Bstatic -fstack-protector   -arch x86_64   -lruby-static -framework CoreFoundation  -lpthread -ldl -lobjc "
+ld: warning: directory not found for option '-L/Users/mpapis/.sm/pkg/active/lib'
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { void ((*volatile p)()); p = (void ((*)()))strcasecmp; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for strncasecmp()... -------------------- yes
+
+"gcc -o conftest -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/x86_64-darwin14.0 -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/ruby/backward -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -DVERSION=\"2.0.9\" -O3 -I/Users/mpapis/.sm/pkg/active/include -fPIC -mmacosx-version-min=10.7 -pipe -I. conftest.c  -L. -L/Users/brandon/.rvm/rubies/ruby-2.1.5/lib -L. -L/Users/mpapis/.sm/pkg/active/lib -fPIC -Bstatic -fstack-protector   -arch x86_64   -lruby-static -framework CoreFoundation  -lpthread -ldl -lobjc "
+ld: warning: directory not found for option '-L/Users/mpapis/.sm/pkg/active/lib'
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     printf("%p", &t);
+ 9:   }
+10: 
+11:   return 0;
+12: }
+13: int t(void) { void ((*volatile p)()); p = (void ((*)()))strncasecmp; return 0; }
+/* end */
+
+--------------------
+
+have_header: checking for mkdio.h... -------------------- yes
+
+"gcc -E -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/x86_64-darwin14.0 -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/ruby/backward -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -DVERSION=\"2.0.9\" -O3 -I/Users/mpapis/.sm/pkg/active/include -fPIC -mmacosx-version-min=10.7 -pipe -I.  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <mkdio.h>
+/* end */
+
+--------------------
+
+have_header: checking for ruby/encoding.h... -------------------- yes
+
+"gcc -E -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/x86_64-darwin14.0 -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0/ruby/backward -I/Users/brandon/.rvm/rubies/ruby-2.1.5/include/ruby-2.1.0 -I. -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -DVERSION=\"2.0.9\" -O3 -I/Users/mpapis/.sm/pkg/active/include -fPIC -mmacosx-version-min=10.7 -pipe -I.  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <ruby/encoding.h>
+/* end */
+
+--------------------
+
+extconf.h is:
+/* begin */
+ 1: #ifndef EXTCONF_H
+ 2: #define EXTCONF_H
+ 3: #define HAVE_SRAND 1
+ 4: #define HAVE_RANDOM 1
+ 5: #define HAVE_BZERO 1
+ 6: #define HAVE_STRCASECMP 1
+ 7: #define HAVE_STRNCASECMP 1
+ 8: #define HAVE_MKDIO_H 1
+ 9: #define HAVE_RUBY_ENCODING_H 1
+10: #endif
+/* end */
+
